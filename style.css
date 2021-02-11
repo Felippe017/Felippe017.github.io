@@ -1,0 +1,54 @@
+h3{
+    font-style: italic;
+    color: rgb(0, 255, 13);
+ }  
+
+ #descrition{
+     font-style: inherit;
+     font-weight: bold;
+     line-height: 30px;
+ }
+
+ body{
+     background-color: rgb(0, 0, 0);
+     color: white;       
+ }
+
+ .skills-class{
+     font-size: 19px;
+     text-align: left;
+     line-height: 40px;
+ }
+
+ #list-u{
+     line-height: 30px;
+     color: rgb(247, 245, 244);
+ }
+
+ h2{
+     color: yellow;
+     font-size: 29px;
+ }
+
+ h1{
+     color: yellow;
+ }
+
+  #openmind{
+      line-height: 30px;
+      font-style: inherit;
+      font-weight: bold;
+  }
+
+  #site{
+      line-height: 30px;
+      font-style: inherit;
+      font-weight: bold;
+  }
+
+  #skills{
+      line-height: 30px;
+      font-style: inherit;
+      font-weight: bold;
+  }
+  
