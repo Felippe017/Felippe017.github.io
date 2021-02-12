@@ -4,89 +4,31 @@
        <meta charset="UTF-8">
        <title>PORTFÓLIO WEB</title>
        <link rel="stylesheet" type="text/css" href="style.css">
-       <style>
-         /* h3{
-             font-style: italic;
-             color: rgb(0, 255, 13);
-          }  
-
-          #descrition{
-              font-style: inherit;
-              font-weight: bold;
-              line-height: 30px;
-          }
-
-          body{
-              background-color: rgb(0, 0, 0);
-              color: white;       
-          }
-
-          .skills-class{
-              font-size: 19px;
-              text-align: left;
-              line-height: 40px;
-          }
-
-          #list-u{
-              line-height: 30px;
-              color: rgb(247, 245, 244);
-          }
-
-          h2{
-              color: yellow;
-              font-size: 29px;
-          }
-
-          h1{
-              color: yellow;
-          }
-
-           #openmind{
-               line-height: 30px;
-               font-style: inherit;
-               font-weight: bold;
-           }
-
-           #site{
-               line-height: 30px;
-               font-style: inherit;
-               font-weight: bold;
-           }
-
-           #skills{
-               line-height: 30px;
-               font-style: inherit;
-               font-weight: bold;
-           }*/
-       </style>
    </head> 
    <body>
-    <h2 id="oneindice">ÍNDICE</h2>
-    <ol id="list-u">
-       <br><li><a href="#Selfie">Nome e Foto</a></li> 
-       <br><li><a href="#skills">Habilidades</a></li> 
-       <br><li><a href="#site">site que eu mais gosto</a> </li> 
-    </ol>
     <br>
     <br>
-    <hr>
        <h1>Meu Portfólio</h1>
-       <img src="SelfieP.jpeg" alt="Selfie para a confecção do portfólio " width="350px">
-       <h3 id="Selfie">Felippe Correa Lima</h3>
-       <p id="descrition">Meu nome é Felippe, sou brasileiro, tenho 22 anos, moro na cidade do  Rio de Janeiro(Capital).
-        Ex estudante da área de Direito, atualmente sou estudante do curso de Desenvolvimento Full Stack da Trybe. Sou uma pessoa apaixonada por tecnlogia, 
-        inovação, boas ideias e que está em constante busca por conhecimento.</p>
-        <br>
-        <hr>
+       <div>
+             <img class="editphoto" src="SelfieP.jpeg" alt="Selfie para a confecção do portfólio ">
+       </div>
+       <div>
+             <h3 id="Selfie">Felippe Correa Lima</h3>
+       </div>
+       <div class="description">
+            <p>Meu nome é Felippe, sou brasileiro, tenho 22 anos, moro na cidade do  Rio de Janeiro(Capital).
+            Ex estudante da área de Direito, atualmente sou estudante do curso de Desenvolvimento Full Stack da Trybe. <br>Sou uma pessoa apaixonada por tecnlogia, 
+            inovação, boas ideias e que está em constante busca por conhecimento.</p>
+       </div>
         <br>
         <h2>Habilidades</h2>
         <br><p id="skills">As minhas principais habilidades são: </p>
         <ul class="skills-class">
-            <li>Trabalho em equipe</li>
+            <li class="impares">Trabalho em equipe</li>
             <li><strong>Mente aberta</strong></li>
-            <li>Organização</li>
+            <li class="impares">Organização</li>
             <li>Determinação</li>
-            <li>Responsabilidade</li>
+            <li class="impares">Responsabilidade</li>
             <li>Autonomia</li>
         </ul>
         <br><p id="openmind">Dentre essas habilidades que possuo, ter a mente aberta para novas ideias é a habilidade que mais me orgulha, pois é através dela que 
@@ -99,5 +41,11 @@
         <br><p id="site">Um site/blog que gosto bastante e que me ajuda sempre que preciso de alguma informação é o <a href="https://www.w3schools.com/" target="_blank">W33schools</a>.
             Graças a esse site, eu aprendo constantemente alguma ferramenta ou conceito novo toda vez que necessito solucionar algum
             problema lógico.</p>
+            <h2 id="oneindice">ÍNDICE</h2>
+            <ol id="list-u">
+               <br><li><a href="#Selfie">Nome e Foto</a></li> 
+               <br><li><a href="#skills">Habilidades</a></li> 
+               <br><li><a href="#site">site que eu mais gosto</a> </li> 
+            </ol>
    </body>
 </html>
