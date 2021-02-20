@@ -1,20 +1,24 @@
-h3{
+h1 {
     font-style: italic;
-    color: rgb(0, 255, 13);
+    color: white;
     text-align: center;
+    margin-bottom: 95px;
+    margin-top: 40px;
  }  
 
  .description{
-     font-style: inherit;
-     font-weight: bold;
      line-height: 30px;
+     width: 50%;
+     margin-left: 40px;
      position:absolute;
-     top: 300px;
+     top: 270px;
      left: 500px;
 }
 
  body{
-     background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.wallpapersafari.com%2F65%2F42%2F0GdVHI.jpg&f=1&nofb=1);
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 18px;
+     background-color: rgba(175, 175, 175, 0.041);
  }
 
  .skills-class{
@@ -29,38 +33,33 @@ h3{
  }
 
  h2{
-     color: yellow;
+     color: white;
      font-size: 29px;
- }
-
- h1{
-     color: yellow;
      text-align: center;
+     
  }
 
   #openmind{
       line-height: 30px;
       font-style: inherit;
-      font-weight: bold;
   }
 
   #site{
       line-height: 30px;
       font-style: inherit;
-      font-weight: bold;
   }
 
   #skills{
       line-height: 30px;
       font-style: inherit;
-      font-weight: bold;
   }
 
-  .editphoto{
-    width: 300px;
-    border-radius: 50%;
-    padding: 4% 5%;
-    background-color: blue;
+  .editphoto {
+    width: 210px;
+    border-radius: 100px;
+    margin-left: 250px;
+    margin-bottom: 140px;
+    padding: 1%;
   }
 
   .impares{
@@ -68,4 +67,9 @@ h3{
       font-size: 20px;
       color: tomato;
   }
-  
+
+  .div-class {
+      margin-bottom: 200px;
+      margin-top: auto;
+      background-color: #4edab9;
+  }
